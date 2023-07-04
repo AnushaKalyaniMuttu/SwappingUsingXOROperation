@@ -1,0 +1,14 @@
+package com.employee;
+
+public class StringOperation {
+
+	public static void main (String [] args) {
+
+		int num1=1;			//0001
+		int num2=2;         //0010
+		num1=num1^num2;     //0011
+		num2=num1^num2;     //0001
+		num1=num1^num2;     //0010
+		System.out.println("num1="+num1+"num2="+num2);
+	}
+}
